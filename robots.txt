@@ -1,0 +1,28 @@
+User-agent: Yandex
+Disallow: /admin.php
+Disallow: /profile.php
+Allow: /catalog.php
+Allow: /basket.php
+Allow: /index.php
+Allow: /login.php
+Allow: /registration.php
+
+User-agent: Googlebot
+Disallow: /admin.php
+Disallow: /profile.php
+Allow: /catalog.php
+Allow: /basket.php
+Allow: /index.php
+Allow: /login.php
+Allow: /registration.php
+
+User-agent: *
+Disallow: /admin.php
+Disallow: /profile.php
+Allow: /catalog.php
+Allow: /basket.php
+Allow: /index.php
+Allow: /login.php
+Allow: /registration.php
+
+Sitemap: https://gazpromazs.byethost5.com/sitemap.xml
